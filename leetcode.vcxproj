@@ -134,6 +134,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Median of Two Sorted Arrays.ixx" />
+    <ClCompile Include="Merge k Sorted Lists.ixx" />
+    <ClCompile Include="Regular Expression Matching.ixx" />
+    <ClCompile Include="Simplify Path.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
