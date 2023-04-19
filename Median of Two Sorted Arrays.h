@@ -1,9 +1,7 @@
-export module Median_of_Two_Sorted_Arrays;
-
-import std.core;
+#include <vector>
 
 // 4. Median of Two Sorted Arrays
-export class Solution4 {
+class Solution4 {
 public:
     double findMedianSortedArrays(std::vector<int> & nums1, std::vector<int> & nums2) {
         int i = bi_search_median_index(nums1, nums2);

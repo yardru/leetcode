@@ -18,16 +18,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Median of Two Sorted Arrays.ixx">
+    <ClCompile Include="Median of Two Sorted Arrays.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Simplify Path.ixx">
+    <ClCompile Include="Simplify Path.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Merge k Sorted Lists.ixx">
+    <ClCompile Include="Merge k Sorted Lists.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Regular Expression Matching.ixx">
+    <ClCompile Include="Regular Expression Matching.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sudoku Solver.h">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

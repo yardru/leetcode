@@ -134,10 +134,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Median of Two Sorted Arrays.ixx" />
-    <ClCompile Include="Merge k Sorted Lists.ixx" />
-    <ClCompile Include="Regular Expression Matching.ixx" />
-    <ClCompile Include="Simplify Path.ixx" />
+    <ClCompile Include="Median of Two Sorted Arrays.h" />
+    <ClCompile Include="Merge k Sorted Lists.h" />
+    <ClCompile Include="Regular Expression Matching.h" />
+    <ClCompile Include="Simplify Path.h" />
+    <ClCompile Include="Sudoku Solver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

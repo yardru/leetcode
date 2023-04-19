@@ -1,9 +1,8 @@
-export module Simplify_Path;
-
-import std.core;
+#include <vector>
+#include <string>
 
 // 71. Simplify Path
-export class Solution71 {
+class Solution71 {
 public:
     std::string simplifyPath(std::string path) {
         std::vector<int> slashs = {0};

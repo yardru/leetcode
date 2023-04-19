@@ -1,9 +1,7 @@
-export module Merge_k_Sorted_Lists;
-
-import std.core;
+#include <vector>
 
 // 23. Merge k Sorted Lists
-export class Solution23 {
+class Solution23 {
 public:
     struct ListNode {
         int val;

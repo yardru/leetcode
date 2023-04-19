@@ -1,9 +1,9 @@
-export module Regular_Expression_Matching;
-
-import std.core;
+#include <vector>
+#include <string>
+#include <unordered_map>
 
 // 10. Regular Expression Matching
-export class Solution10 {
+class Solution10 {
 public:
     static void test(void) {
         struct {
@@ -44,10 +44,6 @@ public:
             {"aaabbb", "aaa.bb", true},
             {"aaabb", "aaa.bb", false}
         };
-        std::cout << "???\n";
-        for (auto & t : tests)
-            if (Solution10().isMatch(t.s, t.p) != t.answer)
-                std::cout << "AAA!!! '" << t.s << (t.answer ? "' doesn't match '" : "' matches '") << t.p << "'\n";
     }
 
     bool isMatch(std::string s, std::string p) {
