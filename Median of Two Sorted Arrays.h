@@ -1,3 +1,5 @@
+#pragma once
+
 #include <vector>
 
 // 4. Median of Two Sorted Arrays

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <vector>
 
 // 23. Merge k Sorted Lists

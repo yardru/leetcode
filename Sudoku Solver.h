@@ -1,3 +1,5 @@
+#pragma once
+
 #include <vector>
 
 // 37. Sudoku Solver
