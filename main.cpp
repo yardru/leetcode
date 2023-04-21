@@ -32,17 +32,28 @@ public:
         for (auto & rep : reps)
             to_change += rep / 3;
 
-        for (auto & rep : reps)
-            if (rep % 3 == 0 && to_del - deleted > 0)
+        for (auto & rep : reps) {
+            if (to_del - deleted <= 0 || to_change <= 0)
+                break;
+            if (rep % 3 == 0)
                 rep--, to_change--, deleted++;
+        }
 
-        for (auto & rep : reps)
-            if (rep % 3 == 1 && to_del - deleted > 1)
+        for (auto & rep : reps) {
+            if (to_del - deleted <= 1 || to_change <= 0)
+                break;
+            if (rep % 3 == 1)
                 rep -= 2, to_change--, deleted += 2;
+        }
 
-        for (auto & rep : reps)
-            while (to_del - deleted > 2 && rep > 2)
-                rep -= 3, to_change--, deleted += 3;
+        for (auto & rep : reps) {
+            if (to_del - deleted <= 2 || to_change <= 0)
+                break;
+            int change_opt = min((to_del - deleted) / 3, rep / 3);
+            to_change -= change_opt;
+            deleted += change_opt * 3;
+        }
+
         to_change = max(to_change, 6 - len);
         to_change = max(to_change, !has_upper + !has_lower + !has_digit);
 
