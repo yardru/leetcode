@@ -4,7 +4,7 @@
 #include <string>
 
 // 420. Strong Password Checker
-class Solution {
+class Solution420 {
 public:
     /* TESTS:
     struct {
