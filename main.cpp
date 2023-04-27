@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+#include "Minimum Reverse Operations.h"
+
 using namespace std;
 
 class Solution {
@@ -11,10 +13,11 @@ public:
             {}
         };
         for (auto & test : tests)
-            cout << "!!!\n";
+            std::cout << "!!!\n";
     }
 };
 
 int main(void) {
+    Solution2612().run();
     return 0;
 }
