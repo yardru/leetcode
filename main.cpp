@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "Minimum Reverse Operations.h"
+#include "N-Queens.h"
 
 using namespace std;
 
@@ -18,6 +18,6 @@ public:
 };
 
 int main(void) {
-    Solution2612().run();
+    Solution51().run();
     return 0;
 }

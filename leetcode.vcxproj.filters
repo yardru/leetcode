@@ -41,5 +41,8 @@
     <ClInclude Include="Minimum Reverse Operations.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="N-Queens.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

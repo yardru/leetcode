@@ -142,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Minimum Reverse Operations.h" />
+    <ClInclude Include="N-Queens.h" />
     <ClInclude Include="Strong Password Checker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
