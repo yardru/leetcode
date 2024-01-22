@@ -44,5 +44,11 @@
     <ClInclude Include="N-Queens.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Checking Existence of Edge Length Limited Paths.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trapping Rain Water.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

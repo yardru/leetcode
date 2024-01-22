@@ -141,9 +141,11 @@
     <ClCompile Include="Sudoku Solver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Checking Existence of Edge Length Limited Paths.h" />
     <ClInclude Include="Minimum Reverse Operations.h" />
     <ClInclude Include="N-Queens.h" />
     <ClInclude Include="Strong Password Checker.h" />
+    <ClInclude Include="Trapping Rain Water.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
